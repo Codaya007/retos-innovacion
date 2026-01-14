@@ -1,0 +1,47 @@
+.vscode
+.venv
+.env
+.git
+# Entorno Virtual (Virtual Environment)
+# Es la parte más importante. Ignora la carpeta de dependencias.
+/venv
+/env
+*.pyc
+
+# Caché y archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Archivos de caché del intérprete/programa
+.ipynb_checkpoints
+.cache
+.pytest_cache
+
+# Base de Datos (SQLite)
+# Si usas SQLite, ignora el archivo de la base de datos (por defecto 'app.db')
+*.db
+/instance/*.db
+
+# Variables de entorno local
+# Claves de la aplicación, contraseñas, etc.
+.env
+.flaskenv
+.env.local
+.env.*.local
+
+# Directorios de carga de archivos (uploads)
+# Si tu aplicación permite subir imágenes, PDFs, etc.
+/uploads/
+/static/uploads/
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración del editor de texto
+.vscode/
+.idea/
+
+migrations
